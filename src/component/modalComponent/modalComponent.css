@@ -1,0 +1,33 @@
+.modalPopUpBox li{
+    list-style: none;
+    padding:5px;
+    text-align: left;
+    color: #fff;
+} 
+.modalPopUpBox{
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    bottom: 50px;
+    
+}     
+.modalContentListHeight{
+    height:95%;
+    margin-top:70px;
+} 
+.modalPopUpBox button{
+    padding: 5px;
+    color: #fff;    
+    background-color: blue;
+    width: 100px;
+}
+.modalPopUpBox  .whiteButton{
+    background-color: #fff;  
+    color :black; 
+}
+.selectedModalContent{
+    background-color: #fff; 
+    color: black !important;
+}

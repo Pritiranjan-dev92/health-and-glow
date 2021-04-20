@@ -1,0 +1,32 @@
+.navBar{
+    display: flex;
+    font-size: 30px;
+    width:100%;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+.navBar div  p{
+    display: inline-block;
+    padding: 10px;
+    color: orange;
+}
+.navBar .left_nav{
+    flex:1;
+    text-align: left;
+    min-width: 250px;
+    
+}
+.navBar .right_nav{
+    flex:1;
+    text-align: right;
+    padding: 10px;
+}
+.navBar .right_nav i{
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 30px;
+}
+.navbar div >*{
+    padding-left: 5px;
+}

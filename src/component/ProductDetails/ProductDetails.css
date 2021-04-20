@@ -1,0 +1,32 @@
+.productList{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    height: 75vh;
+    overflow-y: auto;
+}
+.productList li{
+    width: 44%;
+    padding: 2.5%;
+    border-bottom: 1px solid #e3e3e3;
+    position: relative;
+    list-style: none;
+}
+.productImageWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productBottom{
+    display: flex;
+}
+.productBottom span{
+    flex:1;
+    color:red
+}
+.productBottom button{
+    padding: 5px;
+    flex: 1;
+    background-color: orange;
+    border: none;
+}
